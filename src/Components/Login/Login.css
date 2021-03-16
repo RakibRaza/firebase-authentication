@@ -1,0 +1,32 @@
+.divider {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.divider span {
+  background: #fff;
+  padding: 0 10px;
+}
+.google,
+.facebook,
+.github {
+  border: 2px solid lightgray;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #3076ff;
+}
+.icon-github {
+  font-size: 2rem;
+  color: black;
+}
